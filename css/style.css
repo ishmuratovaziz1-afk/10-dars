@@ -312,6 +312,9 @@ header {
   align-items: center;
   justify-content: space-between;
 }
+.blog-box{
+padding-bottom: 50px;
+}
 .blog-years {
   font-size: 25px;
   font-weight: 400;
@@ -328,6 +331,10 @@ header {
   padding: 7px 64px;
   display: flex;
   margin: 0 auto;
+  
+}
+.blog-btn button:active{
+  transform: scale(0.95);
 }
 @media (max-width:840px) {
   .blog-content{
